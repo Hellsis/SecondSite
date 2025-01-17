@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repose\\FirstSite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21304638-1E33-4938-9A87-0195B7EAEB08}|FirstSite\\FirstSite.csproj|d:\\repose\\firstsite\\firstsite\\controllers\\webapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21304638-1E33-4938-9A87-0195B7EAEB08}|FirstSite\\FirstSite.csproj|solutionrelative:firstsite\\controllers\\webapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21304638-1E33-4938-9A87-0195B7EAEB08}|FirstSite\\FirstSite.csproj|d:\\repose\\firstsite\\firstsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21304638-1E33-4938-9A87-0195B7EAEB08}|FirstSite\\FirstSite.csproj|solutionrelative:firstsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21304638-1E33-4938-9A87-0195B7EAEB08}|FirstSite\\FirstSite.csproj|d:\\repose\\firstsite\\firstsite\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21304638-1E33-4938-9A87-0195B7EAEB08}|FirstSite\\FirstSite.csproj|solutionrelative:firstsite\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "D:\\repose\\FirstSite\\FirstSite\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "FirstSite\\Controllers\\MainController.cs",
+              "ToolTip": "D:\\repose\\FirstSite\\FirstSite\\Controllers\\MainController.cs",
+              "RelativeToolTip": "FirstSite\\Controllers\\MainController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:26:23.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebAPIController.cs",
+              "DocumentMoniker": "D:\\repose\\FirstSite\\FirstSite\\Controllers\\WebAPIController.cs",
+              "RelativeDocumentMoniker": "FirstSite\\Controllers\\WebAPIController.cs",
+              "ToolTip": "D:\\repose\\FirstSite\\FirstSite\\Controllers\\WebAPIController.cs",
+              "RelativeToolTip": "FirstSite\\Controllers\\WebAPIController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:49:00.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repose\\FirstSite\\FirstSite\\Program.cs",
+              "RelativeDocumentMoniker": "FirstSite\\Program.cs",
+              "ToolTip": "D:\\repose\\FirstSite\\FirstSite\\Program.cs",
+              "RelativeToolTip": "FirstSite\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:47:45.282Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

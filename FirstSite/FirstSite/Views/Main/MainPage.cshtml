@@ -1,0 +1,92 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<FirstSite.Models.Car>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Main Page</title>
+	<link href="/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="height: 7%">
+		<p align="center"  style="color:#EDB749; font-size:50px; font-family:'Times New Roman', Times, serif;">Машины</p>
+    </div>
+    <div align="center" style="height: 80%" class="div_table">
+		<table class="table_dark">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Type</th>
+				<th>Price</th>
+				<th>Discripton</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach(var car in Model)
+			{
+				<tr>
+					<form asp-controller="Main" asp-action="Edit" asp-route-id="@car.Id">
+					<td>@car.Id</td>
+						<td><input type="text" name="name" value="@car.Name" /></td>
+						<td><input type="text" name="type" value="@car.Type" /></td>
+						<td><input type="text" name="price" value="@car.Price" />$</td>
+						<td><input type="text" name="discription" value="@car.Discription" /></td>
+						<td>
+							<button type="submit" style="width:100%;">Сохранить</button>
+						</td>
+						
+						</form>
+					<td>
+
+						<form asp-controller="Main" asp-action="Delete" asp-route-id="@car.Id">
+							<button  type="submit" style="width:100%;">Удалить</button>
+
+						</form>	
+					</td>
+						
+				</tr>
+			}
+			
+		</tbody>
+		</table>
+
+    </div>
+	<div style="height:3%">
+		<p align="center" style="color:#EDB749; font-size:25px; font-family:'Times New Roman', Times, serif;"> Добавление </p>
+	</div>
+	<div style="width:100%;height:3%; display:table">
+
+
+		
+					<form asp-controller="Main" asp-action="Add">
+			<div  style="width:280px ; display:table-cell">
+				<input type="text" name="name" value="Name" />
+				</div>
+			<div style="width:280px ; display:table-cell">
+				<input type="text" name="type" value="Type" />	
+					</div>
+			<div style="width:280px ; display:table-cell">
+				<input type="text" name="price" value="Price" />
+					</div>
+
+			<div style="width:280px ; display:table-cell">
+				<input type="text" name="discription" value="Discription" />
+					</div>
+
+
+			<div style="width:23% ; display:table-cell">
+				<button type="submit" style="width:100%">Добавить</button>
+						</div>
+				
+
+						
+					
+					</form>
+			
+	</div>
+</body>
+</html>
